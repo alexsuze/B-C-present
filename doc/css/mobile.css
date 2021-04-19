@@ -1,0 +1,73 @@
+@media only screen and (max-width: 918px){
+  /* Initial CSS **************************************************/
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Layout設定 **************************************************/
+
+  .container{
+    width: 90%;
+    margin:0 auto;
+  }
+
+  /* 響應式調整 ***************************************************/
+  #menu_btn{
+    display: block;
+  }
+
+  /* 原nav隱藏 ****************************************************/
+  nav{
+    display: none;
+    position: relative;
+  }
+
+  /* 新nav開啟(用div) *********************************************/
+  #menu_btn img{
+    cursor: pointer;
+  }
+  
+  #menu_btn ul.main_list_rwd{
+    list-style: none;
+    position: absolute;
+    background: url("../images/mobile/bg-mobile.png");
+    top: 75px;
+    width: 810px;
+    display: none;
+  }
+
+  #menu_btn ul.open_menu{
+    display: block;
+  }
+
+  #menu_btn ul.main_list_rwd li{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 15px;
+    border: 1px solid #99fa99;
+  }
+
+  #menu_btn ul.main_list_rwd li.current{
+    background: rgba(153, 250, 153, 0.8);
+  }
+
+  #menu_btn ul.main_list_rwd li:hover{
+    background: rgba(153, 250, 153, 0.8);
+  }
+
+  #menu_btn ul.main_list_rwd li ul{
+    display: none;
+  }
+
+  #menu_btn ul.main_list_rwd li a{
+    font-family: "Arial"," Helvetica","sans-serif";
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  
+}

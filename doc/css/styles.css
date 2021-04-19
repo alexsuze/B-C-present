@@ -1,0 +1,222 @@
+/* Initial CSS **************************************************/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #077054;
+  font-size: 14px;
+}
+
+/* 測試用標籤，用完請記得移除 *************************************/
+.tst{
+  border: 1px solid black;
+}
+
+/* Layout設定 **************************************************/
+
+/* 置中排版模板 */
+.container{
+  width: 960px;
+  margin:0 auto;
+}
+
+/* 特殊字形載入 */
+@font-face {
+  font-family: 'latoregular';
+  src: url('../fonts/lato-regular-webfont.eot'),
+    url('../fonts/lato-regular-webfont.svg'),
+    url('../fonts/lato-regular-webfont.ttf'),
+    url('../fonts/lato-regular-webfont.woff');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'nixie_oneregular';
+  src: url('../fonts/nixieone-regular-webfont.eot'),
+    url('../fonts/nixieone-regular-webfont.svg'),
+    url('../fonts/nixieone-regular-webfont.ttf'),
+    url('../fonts/nixieone-regular-webfont.woff');
+  font-weight: normal;
+}
+
+/* 響應式調整 ***************************************************/
+#menu_btn{
+  display: none;
+  position: relative;
+  height: 35px;
+}
+
+#menu_btn img{
+  position: absolute;
+  right: 0;
+  top: 18px;
+}
+
+/* header內容設定 ***********************************************/
+header{
+  height: 135px;
+}
+
+header a{
+  text-decoration: none;
+}
+
+header .title{
+  margin-top: 30px;
+}
+
+header h1{
+  font-family: 'latoregular','san-serif';
+  font-size: 50px;
+  text-align: center;
+  font-weight: 100;
+  color: #99FA99;
+}
+
+header span{
+  font-family: 'nixie_oneregular','serif';
+  font-size: 26px;
+  text-align: center;
+  color: #B6D8CF;
+  text-transform: uppercase;
+  display: block;
+  margin-top: 6px;
+}
+
+/* nav內容設定 ***************************************************/
+
+nav{
+  height: 30px;
+  position: relative;
+}
+
+nav .main_list ul{
+  list-style: none;
+}
+
+nav .main_list li{
+  display: inline-block;
+  margin-top: 3px;
+  padding-right: 45px;
+  padding-left: 45px;
+}
+
+nav .main_list li:first-child{
+  margin-left: 80px;
+}
+
+nav .main_list li a{
+  font-family: 'latoregular','san-serif';
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #B6D8CF;
+}
+
+nav .main_list li .current{
+  color: #99FA99;
+}
+
+nav li a:hover{
+  color: #d3a3ff;
+}
+
+nav .current:hover{
+  color: #99FA99;
+}
+
+nav .sub_list{
+  display: none;
+}
+
+nav .sub_list li{
+  position: absolute;
+  left: 310px;
+  background-color: #077054;
+  padding: 14px 21px;
+}
+
+/* 游標經過開啟子選單的方法，筆記之後可用 */
+nav #list:hover .sub_list{
+  display: block;
+  height: 50px;
+}
+
+/* main內容設定 **************************************************/
+main{
+  height: 918px;
+  background-color: #ffffff;
+  padding: 45px 45px 45px 45px;
+}
+
+main .slogan{
+  float: left;
+  max-width: 510px;
+  margin-left: 25px;
+  margin-top: 110px;
+}
+
+main .slogan h1{
+  font-family: 'nixie_oneregular','serif';
+  font-size: 100px;
+  color: #21A51E;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+  background: url('../images/bg-separator.png') no-repeat center bottom;
+  padding-bottom: 55px;
+}
+
+main .slogan p{
+  font-family: 'nixie_oneregular','serif';
+  font-size: 100px;
+  color: #21A51E;
+  text-align: center;
+  padding-top: 43px;
+}
+
+main .sign{
+  float: right;
+  max-width: 100%;
+  width: auto;
+  margin: 74px 38px 46px 0;
+}
+
+/* footer內容設定 *************************************************/
+footer{
+  height: 144px;
+  position: relative;
+}
+
+footer address{
+  font-family: 'latoregular','san-serif';
+  font-size: 26px;
+  color: #99FA99;
+  font-style: normal;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+footer p{
+  font-family: 'latoregular','san-serif';
+  font-size: 12px;
+  color: #B6D8CF;
+}
+
+footer .info{
+  position: absolute;
+}
+
+footer .connect{
+  position: absolute;
+  right: 0px;
+  top: 30px;
+}
+
+footer .connect img{
+  display: inline-block;
+  margin-left: 20px;
+}

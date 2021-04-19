@@ -24,7 +24,7 @@
     position: relative;
   }
 
-  /* 新nav開啟(用div) *********************************************/
+  /* 新nav開啟(用div做) *********************************************/
   #menu_btn img{
     cursor: pointer;
   }
@@ -34,7 +34,7 @@
     position: absolute;
     background: url("../images/mobile/bg-mobile.png");
     top: 75px;
-    width: 810px;
+    width: 100%;
     display: none;
   }
 
@@ -43,9 +43,7 @@
   }
 
   #menu_btn ul.main_list_rwd li{
-    padding-top: 13px;
-    padding-bottom: 13px;
-    padding-left: 15px;
+    position: relative;
     border: 1px solid #99fa99;
   }
 
@@ -53,21 +51,148 @@
     background: rgba(153, 250, 153, 0.8);
   }
 
-  #menu_btn ul.main_list_rwd li:hover{
+  #menu_btn ul.main_list_rwd li a:hover{
     background: rgba(153, 250, 153, 0.8);
   }
 
-  #menu_btn ul.main_list_rwd li ul{
-    display: none;
+  #menu_btn ul.main_list_rwd li a{
+    color: #ffffff;
+    display: block;
+    font-family: "Arial"," Helvetica","sans-serif";
+    font-size: 18px;
+    padding-top: 13px;
+    padding-bottom: 14px;
+    padding-left: 15px;
+    text-decoration: none;
+    text-align: left;
+    text-transform: uppercase;
+    width: 100%;
   }
 
-  #menu_btn ul.main_list_rwd li a{
-    font-family: "Arial"," Helvetica","sans-serif";
-    font-size: 20px;
-    color: #ffffff;
-    text-decoration: none;
-    text-align: center;
+  #menu_btn ul.main_list_rwd li img{
+    border-left: 1px solid #99fa99;
+    position: absolute;
+    top: 0;
   }
+
+  #menu_btn ul.main_list_rwd li img:hover{
+    background: rgba(153, 250, 153, 0.8);
+  }
+
+  #menu_btn ul.main_list_rwd li ul.sub_list_rwd li{
+    border: none;
+    border-top: 1px solid #99fa99;
+  }
+
+  #menu_btn ul.main_list_rwd li ul.sub_list_rwd li a{
+    padding-left: 30px;
+  }
+
+
+  #menu_btn ul.main_list_rwd li ul.sub_list_rwd{
+    display: none;
+    list-style: none;
+  }
+
 
   
+  #menu_btn ul.main_list_rwd li ul.open_list{
+    display: block;
+  }
+
+  /* main內容設定 **************************************************/
+  main{
+    padding: 0;
+  }
+
+  /* index.html頁面控制 */
+  main .slogan{
+    float: none;
+    width: 100%;
+    max-width: 510px;
+    margin: 0px auto;
+    padding-top: 50px;
+  }
+
+  main .slogan h1{
+    padding-bottom: 45px;
+  }
+
+  main .slogan p{
+    font-size: 5em;
+  }
+
+  main .sign{
+    max-width: 100%;
+    width: 70%;
+    margin: 45px 110px 46px 0;
+  }
+
+  /* about.html頁面控制 */
+  main .introdoction{
+    max-width: none;
+    float: none;
+    margin-left: 25px;
+    padding-top: 50px;
+  }
+
+  main .introdoction h1{
+    padding-bottom: 20px;
+  }
+
+  /* footer內容設定 *************************************************/
+  footer{
+    position: unset;
+  }
+  
+  footer address{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+  
+  footer p{
+    font-size: 1.2em;
+    line-height: 1.1em;
+    color: #B6D8CF;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  footer .info{
+    position: unset;
+    margin: 0 auto;
+  }
+  
+  footer .connect{
+    position: unset;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  footer .connect #facebook{
+    float: left;
+    margin-left: 31%;
+    margin-bottom: 20px;
+  }
+
+  footer .connect #twitter{
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 20px;
+  }
+
+  footer .connect #googleplus{
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 20px;
+  }
+
+  footer .connect #pinterest{
+    float: left;
+    margin-left: 5%;
+    margin-bottom: 20px;
+  }
 }

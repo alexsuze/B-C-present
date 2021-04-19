@@ -19,40 +19,41 @@ body{
 
 /* 置中排版模板 */
 .container{
+  margin: 0 auto;
   width: 960px;
-  margin:0 auto;
 }
 
 /* 特殊字形載入 */
 @font-face {
   font-family: 'latoregular';
+  font-weight: normal;
   src: url('../fonts/lato-regular-webfont.eot'),
     url('../fonts/lato-regular-webfont.svg'),
     url('../fonts/lato-regular-webfont.ttf'),
     url('../fonts/lato-regular-webfont.woff');
-  font-weight: normal;
 }
 
 @font-face {
   font-family: 'nixie_oneregular';
+  font-weight: normal;
   src: url('../fonts/nixieone-regular-webfont.eot'),
     url('../fonts/nixieone-regular-webfont.svg'),
     url('../fonts/nixieone-regular-webfont.ttf'),
     url('../fonts/nixieone-regular-webfont.woff');
-  font-weight: normal;
+  
 }
 
 /* 響應式調整 ***************************************************/
 #menu_btn{
   display: none;
-  position: relative;
   height: 35px;
+  position: relative;
 }
 
 #menu_btn img{
-  position: absolute;
   right: 0;
   top: 18px;
+  position: absolute;
 }
 
 /* header內容設定 ***********************************************/
@@ -69,21 +70,21 @@ header .title{
 }
 
 header h1{
+  color: #99FA99;
   font-family: 'latoregular','san-serif';
   font-size: 50px;
   text-align: center;
   font-weight: 100;
-  color: #99FA99;
 }
 
 header span{
+  color: #B6D8CF;
+  display: block;
   font-family: 'nixie_oneregular','serif';
   font-size: 26px;
-  text-align: center;
-  color: #B6D8CF;
-  text-transform: uppercase;
-  display: block;
   margin-top: 6px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* nav內容設定 ***************************************************/
@@ -109,11 +110,11 @@ nav .main_list li:first-child{
 }
 
 nav .main_list li a{
+  color: #B6D8CF;
   font-family: 'latoregular','san-serif';
   font-size: 18px;
   text-decoration: none;
   text-transform: uppercase;
-  color: #B6D8CF;
 }
 
 nav .main_list li .current{
@@ -133,9 +134,9 @@ nav .sub_list{
 }
 
 nav .sub_list li{
-  position: absolute;
-  left: 310px;
   background-color: #077054;
+  left: 310px;
+  position: absolute;
   padding: 14px 21px;
 }
 
@@ -147,11 +148,13 @@ nav #list:hover .sub_list{
 
 /* main內容設定 **************************************************/
 main{
-  height: 918px;
+  min-height: 827px;
+  overflow: hidden;
   background-color: #ffffff;
   padding: 45px 45px 45px 45px;
 }
 
+/* index.html設定控制 */
 main .slogan{
   float: left;
   max-width: 510px;
@@ -185,9 +188,47 @@ main .sign{
   margin: 74px 38px 46px 0;
 }
 
+/* about設定控制 */
+main .introdoction{
+  float: left;
+  max-width: 510px;
+}
+
+main .introdoction h1{
+  font-family: 'nixie_oneregular','serif';
+  color: #21A51E;
+  font-weight: 100;
+  font-size: 35px;
+  padding-bottom: 44px;
+}
+
+main .introdoction h2{
+  font-family: 'nixie_oneregular','serif';
+  color: #315f52;
+  font-weight: 100;
+  font-size: 23px;
+  line-height: 30px;
+}
+
+main .introdoction p{
+  font-family: 'latoregular','san-serif';
+  line-height: 30px;
+  color: #315f52;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+main .introdoction p a{
+  color: #315f52;
+}
+
+main .introdoction p a:hover{
+  color: #310957;
+}
+
 /* footer內容設定 *************************************************/
 footer{
-  height: 144px;
+  min-height: 144px;
   position: relative;
 }
 

@@ -1,11 +1,3 @@
-// import React from "react";
-// import ReactDOM from "react-dom";
-// import App from "./App";
-// import "../css/styles.css";
-
-// var mountNode = document.getElementById("app");
-// ReactDOM.render(<App name="Jane" />, mountNode);
-import $ from "jquery";
 window.onload = function () {
 
     var menu_btn = $('#menu_btn');

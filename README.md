@@ -1,1 +1,2 @@
-# B-C-present
+# Template
+Some website template practice.

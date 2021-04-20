@@ -19,3 +19,6 @@
 1. Finish classes.html(include RWD).  
 2. Finish instructor.html(include RWD).  
 3. Finish contract.html(include RWD).  
+4. Basic blog.html content.  
+
+[2021/04/21]

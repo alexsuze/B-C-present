@@ -145,6 +145,7 @@
     max-width: none;
     float: none;
     margin-left: 25px;
+    margin-right: 25px;
     padding-top: 40px;
   }
 
@@ -156,6 +157,77 @@
     margin-bottom: 25px;
   }
 
+  /* instructors.html頁面控制 */
+  main .teacher{
+    max-width: 100%;
+    float: none;
+    margin-left: 5%;
+    margin-right: 25px;
+    padding-top: 40px;
+  }
+
+  main .member{
+    float: none;
+    display: inline-block;
+    max-width: 40%;
+    margin-right: 15%;
+    margin-bottom: 55px;
+  }
+
+  main .member2{
+    max-width: 40%;
+    margin-right: 5%;
+  }
+
+  main img{
+    width: 100%;
+  }
+
+
+   /* contact.html頁面控制 */
+   main .contact{
+    max-width: none;
+    float: none;
+    margin-left: 25px;
+    padding-top: 50px;
+  }
+
+  main .contact h1{
+    padding-bottom: 25px;
+  }
+
+  main .type-in{
+    width: auto;
+    margin: 0 auto;
+  }
+
+  main .type-in h2{
+    margin-bottom: 18px;
+  }
+  
+  main .type-in p{
+    padding-bottom: 10px;
+  }
+  
+  main input{
+   width: 93%;
+   padding-right: 3%;
+  }
+  
+  main textarea{
+    background: #d1d3d4;
+    width: 93%;
+    padding-right: 3%;
+    resize: none;
+    border: 1px solid #b6d8cf;
+  }
+  
+  main button{
+    margin-right: 7%;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
   /* footer內容設定 *************************************************/
   footer{
     position: unset;

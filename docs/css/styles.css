@@ -188,7 +188,7 @@ main .sign{
   margin: 74px 38px 46px 0;
 }
 
-/* about設定控制 */
+/* about.html設定控制 */
 main .introdoction{
   float: left;
   max-width: 510px;
@@ -224,6 +224,71 @@ main .introdoction p a{
 
 main .introdoction p a:hover{
   color: #310957;
+}
+
+/* classes.html設定控制 */
+main .classes{
+  float: left;
+  max-width: 510px;
+}
+
+main .classes h1{
+  font-family: 'nixie_oneregular','serif';
+  color: #21A51E;
+  font-weight: 100;
+  font-size: 35px;
+  padding-bottom: 44px;
+}
+
+main .classes h2{
+  font-family: 'nixie_oneregular','serif';
+  color: #315f52;
+  font-weight: 100;
+  font-size: 23px;
+  line-height: 30px;
+}
+
+main .classes p{
+  font-family: 'latoregular','san-serif';
+  line-height: 30px;
+  color: #315f52;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+main .level{
+  margin-bottom: 42px;
+}
+
+/* instructors.html設定控制 */
+main .introduce{
+  float: left;
+}
+
+main .introduce h1{
+  font-family: 'nixie_oneregular','serif';
+  color: #21A51E;
+  font-weight: 100;
+  font-size: 35px;
+  padding-bottom: 35px;
+}
+
+main .introduce p{
+  font-family: 'nixie_oneregular','serif';
+  text-align: center;
+  color: #315f52;
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+main .member{
+  float: left;
+  margin-right: 80px;
+  margin-bottom: 55px;
+}
+
+main .member:last-child{
+  margin-right: 0px;
 }
 
 /* footer內容設定 *************************************************/

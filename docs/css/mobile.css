@@ -47,7 +47,7 @@
     border: 1px solid #99fa99;
   }
 
-  #menu_btn ul.main_list_rwd li.current{
+  #menu_btn ul.main_list_rwd a.current{
     background: rgba(153, 250, 153, 0.8);
   }
 
@@ -138,6 +138,22 @@
 
   main .introdoction h1{
     padding-bottom: 20px;
+  }
+
+  /* classes.html頁面控制 */
+  main .classes{
+    max-width: none;
+    float: none;
+    margin-left: 25px;
+    padding-top: 40px;
+  }
+
+  main .classes h1{
+    padding-bottom: 20px;
+  }
+
+  main .level{
+    margin-bottom: 25px;
   }
 
   /* footer內容設定 *************************************************/

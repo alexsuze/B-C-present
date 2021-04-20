@@ -4,7 +4,7 @@
 
 #### Website present: https://alexsuze.github.io/B-C-present/ 
 
-### UPDATE
+### UPDATE NEWS
 
 [2021/04/19]  
 1. Change new path.  
@@ -13,4 +13,9 @@
 4. (RWD)(Javascript)Add click list button's event. Open & close instructors list and change icon image.  
 5. (RWD)Fix main's composing under 918px.  
 6. (RWD)Fix footer's composing under 918px.  
-7. Finish about.html.(included RWD).
+7. Finish about.html.(include RWD).
+
+[2021/04/20]  
+1. Finish classes.html(include RWD).  
+2. Finish instructor.html(include RWD).  
+3. Finish contract.html(include RWD).  

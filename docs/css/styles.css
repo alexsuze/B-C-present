@@ -61,23 +61,23 @@ header{
   height: 135px;
 }
 
-header a{
-  text-decoration: none;
-}
-
 header .title{
   margin-top: 30px;
 }
 
-header h1{
+header .title a{
+  text-decoration: none;
+}
+
+header .title h1{
   color: #99FA99;
   font-family: 'latoregular','san-serif';
   font-size: 50px;
-  text-align: center;
   font-weight: 100;
+  text-align: center;
 }
 
-header span{
+header .title span{
   color: #B6D8CF;
   display: block;
   font-family: 'nixie_oneregular','serif';
@@ -94,22 +94,18 @@ nav{
   position: relative;
 }
 
-nav .main_list ul{
-  list-style: none;
-}
-
-nav .main_list li{
+nav  li{
   display: inline-block;
   margin-top: 3px;
-  padding-right: 45px;
   padding-left: 45px;
+  padding-right: 45px;
 }
 
-nav .main_list li:first-child{
+nav li:first-child{
   margin-left: 80px;
 }
 
-nav .main_list li a{
+nav a{
   color: #B6D8CF;
   font-family: 'latoregular','san-serif';
   font-size: 18px;
@@ -117,31 +113,33 @@ nav .main_list li a{
   text-transform: uppercase;
 }
 
-nav .main_list li .current{
-  color: #99FA99;
+nav a:hover{
+  color: #d3a3ff;
 }
 
-nav li a:hover{
-  color: #d3a3ff;
+nav .current{
+  color: #99FA99;
 }
 
 nav .current:hover{
   color: #99FA99;
 }
 
-nav .sub_list{
+
+nav .main_list ul{
   display: none;
+  list-style: none;
 }
 
 nav .sub_list li{
   background-color: #077054;
   left: 310px;
-  position: absolute;
   padding: 14px 21px;
+  position: absolute;
 }
 
 /* 游標經過開啟子選單的方法，筆記之後可用 */
-nav #list:hover .sub_list{
+nav .list:hover ul{
   display: block;
   height: 50px;
 }
@@ -363,7 +361,47 @@ main .blog h1{
   color: #21A51E;
   font-weight: 100;
   font-size: 35px;
-  padding-bottom: 75px;
+  padding-bottom: 30px;
+}
+
+main .article{
+  padding-right: 100px;
+  margin-bottom: 90px;
+}
+
+main .text h2{
+  margin-bottom: 10px;
+  font-size: 23px;
+}
+
+main .text h2 a{
+  font-family: 'nixie_oneregular','serif';
+  text-decoration: none;
+  color: #315f52;
+  font-weight: 100;
+}
+
+main .text h3{
+  font-family: 'latoregular','san-serif';
+  font-weight: 100;
+  font-size: 14px;
+  color: #315f52;
+  margin-bottom: 10px;
+}
+
+main .text p{
+  font-family: 'latoregular','san-serif';
+  color: #315f52;
+  line-height: 30px;
+}
+
+main .text p a{
+  color: #315f52;
+}
+
+main .article img{
+  float: left;
+  margin-right: 20px;
 }
 
 /* footer內容設定 *************************************************/
@@ -372,23 +410,23 @@ footer{
   position: relative;
 }
 
-footer address{
-  font-family: 'latoregular','san-serif';
-  font-size: 26px;
-  color: #99FA99;
-  font-style: normal;
-  margin-top: 30px;
-  margin-bottom: 5px;
-}
-
-footer p{
-  font-family: 'latoregular','san-serif';
-  font-size: 12px;
-  color: #B6D8CF;
-}
-
 footer .info{
   position: absolute;
+}
+
+footer .info address{
+  color: #99FA99;
+  font-family: 'latoregular','san-serif';
+  font-size: 26px;
+  font-style: normal;
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+
+footer .info p{
+  color: #B6D8CF;
+  font-family: 'latoregular','san-serif';
+  font-size: 12px;
 }
 
 footer .connect{

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/mobile.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
     <script src="./js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -35,15 +36,8 @@
     </div>
 
     <!-- 標題部分，網頁名稱 -->
-    <header class="container">
-        <div class="row">
-            <div class="col-12 title">
-                <a href="./index.html">
-                    <h1>Belle &amp; Carrie</h1>
-                    <span>Rehabilitation Yoga</span>
-                </a>
-            </div>
-        </div>
+    <header id="header" class="container">
+
     </header>
 
     <!-- 導覽列 -->
@@ -69,33 +63,49 @@
                 <h1>Blog</h1>
                 <div class="article">
                     <img src="./images/group-yoga.jpg" alt="group-yoga">
-                    <h2><a href="#">Summer Yoga Classes</a></h2>
-                    <h3>April 7, 2023</h3>
-                    <p>This website template has been designed by Free Website Templates for you, for free. You can
-                        replace all this text with your own text. This is just a place holder, so you can see what the
-                        site would look like. This is just a place holder, so you can see what the site would look like.
-                    </p>
+                    <div class="text">
+                        <h2><a href="#">Summer Yoga Classes</a></h2>
+                        <h3>April 7, 2023</h3>
+                        <p>This website template has been designed by <a href="#">Free Website Templates</a> for you,
+                            for free. You can
+                            replace all this text with your own text. This is just a place holder, so you can see what
+                            the
+                            site would look like. This is just a place holder, so you can see what the site would look
+                            like.
+                        </p>
+                    </div>
+
                 </div>
 
                 <div class="article">
                     <img src="./images/yoga-concentrating.jpg" alt="yoga-concentrating">
-                    <h2><a href="#">Inner peace</a></h2>
-                    <h3>April 6, 2023</h3>
-                    <p>You can remove any link to our website from this website template, you're free to use this
-                        website template without linking back to us. This is just a place holder, so you can see what
-                        the site would look like. This is just a place holder, so you can see what the site would look
-                        like.
-                    </p>
+                    <div class="text">
+                        <h2><a href="#">Inner peace</a></h2>
+                        <h3>April 6, 2023</h3>
+                        <p>You can remove any link to our website from this website template, you're free to use this
+                            website template without linking back to us. This is just a place holder, so you can see
+                            what
+                            the site would look like. This is just a place holder, so you can see what the site would
+                            look
+                            like.
+                        </p>
+                    </div>
+
                 </div>
 
                 <div class="article">
                     <img src="./images/lying-yoga.jpg" alt="lying-yoga">
-                    <h2><a href="#">A Strong and Flexible Body</a></h2>
-                    <h3>April 5, 2023</h3>
-                    <p>If you're having problems editing this website template, then don't hesitate to ask for help on
-                        the Forums. This is just a place holder, so you can see what the site would look like. This is
-                        just a place holder, so you can see what the site would look like.
-                    </p>
+                    <div class="text">
+                        <h2><a href="#">A Strong and Flexible Body</a></h2>
+                        <h3>April 5, 2023</h3>
+                        <p>If you're having problems editing this website template, then don't hesitate to ask for help
+                            on
+                            the Forums. This is just a place holder, so you can see what the site would look like. This
+                            is
+                            just a place holder, so you can see what the site would look like.
+                        </p>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -103,19 +113,8 @@
     </main>
 
     <!-- 尾頁部分，資訊、copyright和社群連結 -->
-    <footer class="container">
-        <div class="row">
-            <div class="info">
-                <address>123 St. City Location, Country | 987654321</address>
-                <p>© 2023 by Belle & Carrie Rehabilitation Yoga. All rights reserved.</p>
-            </div>
-            <div class="connect">
-                <a href="#"><img src="./images/icon-facebook.png" alt="facebook" id="facebook" class="fb"></a>
-                <a href="#"><img src="./images/icon-twitter.png" alt="twitter" id="twitter"></a>
-                <a href="#"><img src="./images/icon-googleplus.png" alt="googleplus" id="googleplus"></a>
-                <a href="#"><img src="./images/icon-pinterest.png" alt="pinterest" id="pinterest"></a>
-            </div>
-        </div>
+    <footer id="footer" class="container">
+
     </footer>
 </body>
 

@@ -22,3 +22,16 @@
 4. Basic blog.html content.  
 
 [2021/04/21]
+1. Finish blog.html(include RWD).  
+2. Using axios to create component header.html & footer.html.  
+3. Adjust footer.html.  
+4. Adjust CSS code with rules.  
+
+
+# Code Style
+
+## CSS
+
+### Style Rules
+
+### Attributes Rules

@@ -146,44 +146,44 @@ nav .list:hover ul{
 
 /* main內容設定 **************************************************/
 main{
+  background-color: #ffffff;
   min-height: 827px;
   overflow: hidden;
-  background-color: #ffffff;
   padding: 45px 45px 45px 45px;
 }
 
-/* index.html設定控制 */
+/* index.html設定 */
 main .slogan{
   float: left;
-  max-width: 510px;
   margin-left: 25px;
   margin-top: 110px;
+  max-width: 510px;
 }
 
 main .slogan h1{
+  background: url('../images/bg-separator.png') no-repeat center bottom;
+  color: #21A51E;
   font-family: 'nixie_oneregular','serif';
   font-size: 100px;
-  color: #21A51E;
-  text-align: center;
   font-weight: 100;
-  text-transform: uppercase;
-  background: url('../images/bg-separator.png') no-repeat center bottom;
   padding-bottom: 55px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 main .slogan p{
+  color: #21A51E;
   font-family: 'nixie_oneregular','serif';
   font-size: 100px;
-  color: #21A51E;
-  text-align: center;
   padding-top: 43px;
+  text-align: center;
 }
 
 main .sign{
   float: right;
+  margin: 74px 38px 46px 0;
   max-width: 100%;
   width: auto;
-  margin: 74px 38px 46px 0;
 }
 
 /* about.html設定控制 */

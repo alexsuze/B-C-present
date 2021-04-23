@@ -125,11 +125,11 @@
     width: 70%;
   }
 
-  /* about.html頁面控制 */
+  /* about.html設定 */
   main .introdoction{
-    max-width: none;
     float: none;
     margin-left: 25px;
+    max-width: none;
     padding-top: 50px;
   }
 
@@ -137,12 +137,12 @@
     padding-bottom: 20px;
   }
 
-  /* classes.html頁面控制 */
+  /* classes.html設定 */
   main .classes{
-    max-width: none;
     float: none;
     margin-left: 25px;
     margin-right: 25px;
+    max-width: none;
     padding-top: 40px;
   }
 
@@ -154,38 +154,32 @@
     margin-bottom: 25px;
   }
 
-  /* instructors.html頁面控制 */
+  /* instructors.html設定 */
   main .teacher{
-    max-width: 100%;
     float: none;
     margin-left: 5%;
     margin-right: 25px;
+    max-width: 100%;
     padding-top: 40px;
   }
 
   main .member{
-    float: none;
     display: inline-block;
-    max-width: 40%;
-    margin-right: 15%;
+    float: none;
     margin-bottom: 55px;
-  }
-
-  main .member2{
+    margin-right: 15%;
     max-width: 40%;
-    margin-right: 5%;
   }
 
   main img{
     width: 100%;
   }
 
-
-   /* contact.html頁面控制 */
+   /* contact.html設定 */
    main .contact{
-    max-width: none;
     float: none;
     margin-left: 25px;
+    max-width: none;
     padding-top: 50px;
   }
 
@@ -194,8 +188,8 @@
   }
 
   main .type-in{
-    width: auto;
     margin: 0 auto;
+    width: auto;
   }
 
   main .type-in h2{
@@ -207,41 +201,41 @@
   }
   
   main input{
-   width: 93%;
-   padding-right: 3%;
+    padding-right: 3%;
+    width: 93%;
   }
   
   main textarea{
     background: #d1d3d4;
-    width: 93%;
+    border: 1px solid #b6d8cf;
     padding-right: 3%;
     resize: none;
-    border: 1px solid #b6d8cf;
+    width: 93%;
   }
   
   main button{
+    cursor: pointer;
     margin-right: 7%;
     margin-top: 5px;
-    cursor: pointer;
   }
 
-  /* blog.html頁面控制 */
+  /* blog.html設定 */
   main .blog{
-    max-width: none;
     float: none;
     margin-left: 25px;
+    max-width: none;
     padding-top: 50px;
   }
 
   main .article{
-    padding-right: 20px;
     margin-bottom: 90px;
+    padding-right: 20px;
   }
 
   main .article img{
     float: none;
-    width: 100%;
     margin-bottom: 20px;
+    width: 100%;
   }
 
 

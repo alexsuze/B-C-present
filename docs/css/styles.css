@@ -186,136 +186,126 @@ main .sign{
   width: auto;
 }
 
-/* about.html設定控制 */
+/* about.html設定 */
 main .introdoction{
   float: left;
   max-width: 510px;
 }
 
 main .introdoction h1{
-  font-family: 'nixie_oneregular','serif';
   color: #21A51E;
-  font-weight: 100;
+  font-family: 'nixie_oneregular','serif';
   font-size: 35px;
+  font-weight: 100;
   padding-bottom: 44px;
 }
 
 main .introdoction h2{
-  font-family: 'nixie_oneregular','serif';
   color: #315f52;
-  font-weight: 100;
+  font-family: 'nixie_oneregular','serif';
   font-size: 23px;
+  font-weight: 100;
   line-height: 30px;
 }
 
 main .introdoction p{
+  color: #315f52;
   font-family: 'latoregular','san-serif';
-  line-height: 30px;
-  color: #315f52;
-  margin-bottom: 20px;
   font-size: 14px;
+  line-height: 30px;
+  margin-bottom: 20px;
 }
 
-main .introdoction p a{
+main .introdoction a{
   color: #315f52;
 }
 
-main .introdoction p a:hover{
+main .introdoction a:hover{
   color: #310957;
 }
 
-/* classes.html設定控制 */
+/* classes.html設定 */
 main .classes{
   float: left;
   max-width: 510px;
 }
 
 main .classes h1{
-  font-family: 'nixie_oneregular','serif';
   color: #21A51E;
-  font-weight: 100;
+  font-family: 'nixie_oneregular','serif';
   font-size: 35px;
+  font-weight: 100;
   padding-bottom: 44px;
 }
 
 main .classes h2{
-  font-family: 'nixie_oneregular','serif';
   color: #315f52;
-  font-weight: 100;
+  font-family: 'nixie_oneregular','serif';
   font-size: 23px;
+  font-weight: 100;
   line-height: 30px;
 }
 
 main .classes p{
-  font-family: 'latoregular','san-serif';
-  line-height: 30px;
   color: #315f52;
-  margin-bottom: 5px;
+  font-family: 'latoregular','san-serif';
   font-size: 14px;
+  line-height: 30px;
+  margin-bottom: 5px;
 }
 
 main .level{
   margin-bottom: 42px;
 }
 
-/* instructors.html設定控制 */
+/* instructors.html設定 */
 main .teacher{
   float: left;
 }
 
 main .teacher h1{
-  font-family: 'nixie_oneregular','serif';
   color: #21A51E;
-  font-weight: 100;
+  font-family: 'nixie_oneregular','serif';
   font-size: 35px;
+  font-weight: 100;
   padding-bottom: 35px;
 }
 
 main .teacher p{
-  font-family: 'nixie_oneregular','serif';
-  text-align: center;
   color: #315f52;
+  font-family: 'nixie_oneregular','serif';
   font-size: 18px;
   padding-top: 5px;
+  text-align: center;
 }
 
 main .member{
   float: left;
-  margin-right: 80px;
   margin-bottom: 55px;
+  margin-right: 80px;
 }
 
 main .member:last-child{
   margin-right: 0px;
 }
 
-main .member{
-  float: left;
-  margin-right: 80px;
-  margin-bottom: 55px;
-}
-
-main .member:last-child{
-  margin-right: 0px;
-}
-
-/* contact.html設定控制 */
+/* contact.html設定 */
 main .contact h1{
-  font-family: 'nixie_oneregular','serif';
   color: #21A51E;
-  font-weight: 100;
+  font-family: 'nixie_oneregular','serif';
   font-size: 35px;
+  font-weight: 100;
   padding-bottom: 75px;
 }
 
 main .type-in{
-  width: 460px;
   margin: 25px auto 0;
+  width: 460px;
 }
 
 main .type-in h2{
-  font-family: 'nixie_oneregular','serif';
   color: #315f52;
+  font-family: 'nixie_oneregular','serif';
   font-size: 23px;
   font-weight: 100;
   margin-bottom: 18px;
@@ -328,45 +318,50 @@ main .type-in p{
 }
 
 main input{
-  margin-bottom: 25px;
-  padding-right: 270px;
-  padding-top: 10px;
-  padding-bottom: 10px;
   background: #d1d3d4;
   border: 1px solid #b6d8cf;
+  margin-bottom: 25px;
+  padding-right: 270px;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 main textarea{
   background: #d1d3d4;
-  resize: none;
   border: 1px solid #b6d8cf;
+  resize: none;
 }
 
 main button{
-  float: right;
-  width: 50px;
-  height: 30px;
   background: #077054;
-  color: #99fa99;
   border: none;
   border-radius: 5px;
+  color: #99fa99;
+  cursor: pointer;
+  float: right;
+  height: 30px;
   margin-right: 15px;
   margin-top: 5px;
-  cursor: pointer;
+  width: 50px;
 }
 
-/* blog.html設定控制 */
+/* blog.html設定 */
 main .blog h1{
-  font-family: 'nixie_oneregular','serif';
   color: #21A51E;
-  font-weight: 100;
+  font-family: 'nixie_oneregular','serif';
   font-size: 35px;
+  font-weight: 100;
   padding-bottom: 30px;
 }
 
 main .article{
-  padding-right: 100px;
   margin-bottom: 90px;
+  padding-right: 90px;
+}
+
+main .article img{
+  float: left;
+  margin-right: 20px;
 }
 
 main .text h2{
@@ -375,33 +370,28 @@ main .text h2{
 }
 
 main .text h2 a{
-  font-family: 'nixie_oneregular','serif';
-  text-decoration: none;
   color: #315f52;
+  font-family: 'nixie_oneregular','serif';
   font-weight: 100;
+  text-decoration: none;
 }
 
 main .text h3{
-  font-family: 'latoregular','san-serif';
-  font-weight: 100;
-  font-size: 14px;
   color: #315f52;
+  font-family: 'latoregular','san-serif';
+  font-size: 14px;
+  font-weight: 100;
   margin-bottom: 10px;
 }
 
 main .text p{
-  font-family: 'latoregular','san-serif';
   color: #315f52;
+  font-family: 'latoregular','san-serif';
   line-height: 30px;
 }
 
 main .text p a{
   color: #315f52;
-}
-
-main .article img{
-  float: left;
-  margin-right: 20px;
 }
 
 /* footer內容設定 *************************************************/

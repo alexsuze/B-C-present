@@ -1,15 +1,15 @@
 window.onload = function () {
 
-    var header = document.getElementById('header');
-    var footer = document.getElementById('footer');
+    let header = document.getElementById('header');
+    let footer = document.getElementById('footer');
 
-    var main_list_rwd = document.getElementsByClassName('main_list_rwd');
-    var menu_btn = document.getElementsByClassName('menu_btn');
+    let main_list_rwd = document.getElementsByClassName('main_list_rwd');
+    let menu_btn = document.getElementsByClassName('menu_btn');
 
-    var expand_btn = document.getElementById('expand');
-    var sub_list_rwd = document.getElementsByClassName('sub_list_rwd');
+    let expand_btn = document.getElementById('expand');
+    let sub_list_rwd = document.getElementsByClassName('sub_list_rwd');
 
-    function menuBtnFn() {
+    const menuBtnFn = () => {
         main_list_rwd[0].classList.toggle('open_menu');
         if (main_list_rwd[0].classList.contains('open_menu')) {
             menu_btn[0].src = './images/mobile/mobile-close.png';
@@ -18,7 +18,7 @@ window.onload = function () {
         }
     }
 
-    function listBtnFn() {
+    const listBtnFn = () => {
         sub_list_rwd[0].classList.toggle('open_list');
         if (sub_list_rwd[0].classList.contains('open_list')) {
             expand_btn.src = './images/mobile/mobile-collapse.png';
@@ -27,13 +27,9 @@ window.onload = function () {
         }
     }
 
-    function headerData() {
-        return axios.get("./compenents/header.html");
-    }
+    const headerData = () => axios.get("./compenents/header.html");
+    const footerData = () => axios.get("./compenents/footer.html");
 
-    function footerData() {
-        return axios.get("./compenents/footer.html");
-    }
 
     //menu button click event
     menu_btn[0].addEventListener('click', menuBtnFn);
